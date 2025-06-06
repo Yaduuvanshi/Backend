@@ -40,9 +40,8 @@ const allowedOrigins = [
   process.env.NEXT_FRONTEND_URL,
   'http://localhost:3001',
   'http://localhost:3000',
-  'https://giftgin-web.vercel.app/',
-  'https://gift-ginnie-website-8b8l.vercel.app',
-  'https://gift-ginnie-admin.vercel.app'
+  'https://website-psi-rose.vercel.app',
+  'https://admin-ivory-six.vercel.app'
 ];
 
 app.use(cors({
