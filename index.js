@@ -38,10 +38,11 @@ app.get('/', (req, res) => {
 
 const allowedOrigins = [
   process.env.NEXT_FRONTEND_URL,
+  process.env.NEXT_ADMIN_URL,
   'http://localhost:3001',
   'http://localhost:3000',
-  'https://website-psi-rose.vercel.app/',
-  'https://admin-ivory-six.vercel.app/'
+  'https://website-psi-rose.vercel.app',
+  'https://admin-ivory-six.vercel.app'
 ];
 
 app.use(cors({
